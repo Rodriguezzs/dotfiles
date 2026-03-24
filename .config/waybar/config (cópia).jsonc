@@ -1,0 +1,76 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 28,
+    "margin": "0",
+    "spacing": 10,
+
+    "modules-left": [
+        "custom/asamitaka",
+        "sway/workspaces"
+    ],
+
+    "modules-center": [
+        "clock"
+    ],
+
+    "modules-right": [
+        "cpu",
+        "custom/cputemp",
+        "memory",
+        "network",
+        "pulseaudio",
+        "tray"
+    ],
+
+    "custom/asamitaka": {
+        "format": "  Asa Mitaka",
+        "tooltip": false
+    },
+
+    "sway/workspaces": {
+        "disable-scroll": true,
+        "format": "{name}",
+        "format-icons": {
+            "default": "",
+            "focused": ""
+        }
+    },
+
+    "clock": {
+        "format": "  {:%H:%M}",
+        "tooltip-format": "{:%A, %d %B %Y}"
+    },
+
+    "cpu": {
+        "format": " {usage}%",
+        "tooltip": true
+    },
+
+    "custom/cputemp": {
+        "exec": "~/.config/waybar/scripts/cpu_temp.sh",
+        "interval": 3,
+        "format": " {}"
+    },
+
+    "memory": {
+        "format": " {used}G",
+        "tooltip": true
+    },
+
+    "network": {
+        "format-wifi": " {essid}",
+        "format-ethernet": "󰈁 {ipaddr}",
+        "format-disconnected": "󰤮"
+    },
+
+    "pulseaudio": {
+        "format": " {volume}%",
+        "format-muted": ""
+    },
+
+    "tray": {
+        "spacing": 10
+    }
+}
+

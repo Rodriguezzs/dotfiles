@@ -1,0 +1,39 @@
+* {
+border: none;
+font-family: "JetBrainsMono Nerd Font", sans-serif;
+font-size: 14px;
+}
+
+window#waybar {
+    background-color: rgba(8, 2, 12, 0.85);
+    border: 1px solid rgba(157, 78, 221, 0.2);
+    border-radius: 12px;
+    color: #ffffff;
+}
+
+#workspaces, #clock, #pulseaudio, #network,
+#custom-librewolf, #custom-steam, #custom-faugus, #custom-kitty, #custom-files {
+padding: 0 12px;
+}
+
+/* Destaque do Workspace Ativo */
+#workspaces button.active {
+color: #c084fc;
+background-color: rgba(157, 78, 221, 0.1);
+}
+
+/* Estilo dos ícones dos Apps */
+#custom-librewolf, #custom-steam, #custom-faugus, #custom-kitty, #custom-files {
+font-size: 17px;
+color: #a371f7;
+}
+
+#custom-librewolf:hover, #custom-steam:hover, #custom-faugus:hover, #custom-kitty:hover, #custom-files:hover {
+color: #ffffff;
+background-color: rgba(255, 255, 255, 0.1);
+}
+
+#clock {
+font-weight: bold;
+color: #ffffff;
+}

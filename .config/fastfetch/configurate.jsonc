@@ -1,0 +1,120 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+
+  "logo": {
+    "type": "file",
+    "source": "~/.config/fastfetch/ascii/reze.txt",
+    "padding": {
+      "top": 2,
+      "right": 6
+    },
+    "color": {
+      "1": "#FF2900",
+    }
+  },
+
+  "display": {
+    "separator": "  "
+  },
+
+  "modules": [
+
+    {
+      "type": "custom",
+      "format": "┌─  Sistema ───────────────────────┐",
+      "color": "#7d0000"
+    },
+
+    {
+      "type": "title",
+      "color": "#7d0000"
+    },
+
+    {
+      "type": "os",
+      "key": "󰍹 OS",
+      "keyColor": "#7d0000"
+    },
+    {
+      "type": "host",
+      "key": "󰇄 PC",
+      "keyColor": "#7d0000"
+    },
+    {
+      "type": "kernel",
+      "key": " Kernel",
+      "keyColor": "#7d0000"
+    },
+    {
+      "type": "processes",
+      "key": " Proc",
+      "keyColor": "#7d0000"
+    },
+    {
+      "type": "packages",
+      "key": "󰏓 pkgs",
+      "keyColor": "#7d0000"
+    },
+
+
+    {
+      "type": "custom",
+      "format": "├─  DesktopEnviroment ─────────────┤",
+      "color": "#7d0000"
+    },
+
+    {
+      "type": "shell",
+      "key": " Shell",
+      "keyColor": "#7d0000"
+    },
+    {
+      "type": "terminal",
+      "key": " Term",
+      "keyColor": "#7d0000"
+    },
+    {
+      "type": "wm",
+      "key": " WM",
+      "keyColor": "#7d0000"
+    },
+
+    {
+      "type": "custom",
+      "format": "├─  HARDWARE ──────────────────────┤",
+      "color": "#7d0000"
+    },
+
+    {
+      "type": "cpu",
+      "key": " CPU",
+      "keyColor": "#7d0000"
+    },
+    {
+      "type": "memory",
+      "key": " RAM",
+      "keyColor": "#7d0000"
+    },
+
+    {
+      "type": "gpu",
+      "key": "󰍛 GPU",
+      "keyColor": "#7d0000"
+    },
+
+
+    {
+      "type": "custom",
+      "format": "└───────────────────────────────────┘",
+      "color": "#7d0000"
+    },
+
+    {
+
+      "type": "custom",
+      "format": "",
+      "color": "#7d0000"
+    },
+
+  ]
+}

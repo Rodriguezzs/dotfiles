@@ -1,0 +1,91 @@
+/* ==========================================
+   Asa Mitaka — Tema Premium Compatível
+   ========================================== */
+
+/* Fonte + reset */
+* {
+    border: none;
+    font-family: "JetBrainsMono Nerd Font", "Fira Code", monospace;
+    font-size: 12.5px;
+    font-weight: 600;
+    color: #e8e8e8;
+}
+
+/* Barra flutuante */
+window#waybar {
+    background: rgba(0, 0, 0, 0.45);
+    border-radius: 16px;
+    margin: 8px 14px 0 14px;
+    padding: 4px;
+    box-shadow: 0px 0px 20px rgba(209, 26, 31, 0.25);
+    transition: background 0.25s ease, box-shadow 0.25s ease;
+}
+
+/* Glow leve no hover */
+window#waybar:hover {
+    background: rgba(0, 0, 0, 0.60);
+    box-shadow: 0px 0px 28px rgba(209, 26, 31, 0.35);
+}
+
+/* Módulos padrões */
+#workspaces button,
+#clock,
+#cpu,
+#memory,
+#custom-cputemp,
+#pulseaudio,
+#network,
+#tray,
+#custom-asamitaka {
+    background: rgba(20, 20, 20, 0.82);
+    padding: 6px 12px;
+    margin: 2px;
+    border-radius: 10px;
+    transition: background 0.18s ease, box-shadow 0.25s ease;
+}
+
+/* Animação de glow no hover dos módulos */
+#workspaces button:hover,
+#clock:hover,
+#cpu:hover,
+#memory:hover,
+#custom-cputemp:hover,
+#pulseaudio:hover,
+#network:hover,
+#tray:hover {
+    background: rgba(209, 26, 31, 0.22);
+    box-shadow: 0px 0px 6px rgba(209, 26, 31, 0.35);
+}
+
+/* Asa Mitaka Tag Especial */
+#custom-asamitaka {
+    background: linear-gradient(90deg, #7a0f14, #d11a1f);
+    padding: 6px 14px;
+    color: #ffffff;
+    font-weight: 700;
+    box-shadow: 0px 0px 8px rgba(209, 26, 31, 0.45);
+    transition: background 0.25s ease, box-shadow 0.25s ease;
+}
+
+/* Glow maior no hover */
+#custom-asamitaka:hover {
+    background: linear-gradient(90deg, #8c141a, #e41f26);
+    box-shadow: 0px 0px 12px rgba(209, 26, 31, 0.55);
+}
+
+/* Workspaces */
+#workspaces button {
+    background: rgba(17, 17, 17, 0.7);
+    color: #b5b5b5;
+}
+
+#workspaces button.active {
+    background: #d11a1f;
+    color: #ffffff;
+    box-shadow: 0px 0px 8px rgba(209, 26, 31, 0.55);
+}
+
+/* Tray mais discreto */
+#tray {
+    padding: 3px 8px;
+}
